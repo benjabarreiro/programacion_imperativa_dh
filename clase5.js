@@ -134,14 +134,24 @@ console.log(typeof dato) */
 
 // extra
 
-function cuenta(altura) {
+function cuenta(altura, peso) {
+	let resultado = altura/peso
+	return typeof resultado
+}
+
+/* let altura = prompt('Ingrese altura: ')
+console.log(altura)
+
+let peso = prompt('Ingrese peso: ')
+console.log(peso)
+
+console.log(cuenta(altura, peso)) */
+
+function prueba(altura) {
 	return typeof altura
 }
 
 let altura = prompt('Ingrese altura: ')
 console.log(altura)
 
-/* let peso = prompt('Ingrese peso: ')
-console.log(peso) */
-
-console.log(cuenta(altura))
+console.log(rueba(altura))
